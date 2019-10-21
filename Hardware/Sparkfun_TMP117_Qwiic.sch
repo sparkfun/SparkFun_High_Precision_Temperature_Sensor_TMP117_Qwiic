@@ -17536,7 +17536,7 @@ With SMBus™- and I2C-Compatible Interface</description>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
 <part name="JP8" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP9" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="JUMPER-SMT_3_2-NC_TRACE_SILK"/>
+<part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value=""/>
 <part name="JP10" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="INT"/>
 <part name="U1" library="SparkFun-Sensors" deviceset="TMP117" device=""/>
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK"/>
@@ -17557,7 +17557,7 @@ With SMBus™- and I2C-Compatible Interface</description>
 <plain>
 <text x="20.32" y="43.18" size="1.778" layer="97" font="vector">I2C Connections</text>
 <text x="63.5" y="175.26" size="3.81" layer="94" font="vector">SparkFun High Precision Temperature Sensor TMP117 (Qwiic)</text>
-<text x="167.894" y="11.43" size="2.54" layer="94" font="vector">Madison Chodikov, Pete Lewis</text>
+<text x="167.894" y="11.43" size="2.54" layer="94" font="vector">Madison Chodikov</text>
 <text x="132.08" y="144.78" size="1.778" layer="97" font="vector">Clear Jumper to remove 
 I2C Pull-ups from bus</text>
 <text x="68.58" y="144.78" size="1.778" layer="97" font="vector">Clear jumper JP10 to remove 
@@ -17586,11 +17586,11 @@ DEFAULT: 0x48</text>
 <wire x1="205.74" y1="99.06" x2="190.5" y2="99.06" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="109.22" x2="195.58" y2="96.52" width="0.2032" layer="97"/>
 <text x="200.66" y="107.95" size="1.27" layer="97" font="vector" align="center">Address</text>
-<text x="200.66" y="105.41" size="1.27" layer="97" font="vector" align="center">0x48</text>
+<text x="200.66" y="105.41" size="1.27" layer="97" font="vector" ratio="15" align="center">0x48</text>
 <text x="200.66" y="102.87" size="1.27" layer="97" font="vector" align="center">0x49</text>
 <text x="200.66" y="100.33" size="1.27" layer="97" font="vector" align="center">0x4A</text>
 <text x="200.66" y="97.79" size="1.27" layer="97" font="vector" align="center">0x4B</text>
-<text x="193.04" y="105.41" size="1.27" layer="97" font="vector" align="center">GND</text>
+<text x="193.04" y="105.41" size="1.27" layer="97" font="vector" ratio="15" align="center">GND</text>
 <text x="193.04" y="102.87" size="1.27" layer="97" font="vector" align="center">VCC</text>
 <text x="193.04" y="100.33" size="1.27" layer="97" font="vector" align="center">SDA</text>
 <text x="193.04" y="97.79" size="1.27" layer="97" font="vector" align="center">SCL</text>
@@ -17604,6 +17604,10 @@ DEFAULT: 0x48</text>
 to disable LED</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
+<text x="167.64" y="7.62" size="2.54" layer="94" font="vector">Revised by: Pete Lewis</text>
+<text x="83.82" y="88.9" size="2.54" layer="97" font="vector">VCC RANGE: 1.8V to 5.5V</text>
+<text x="81.28" y="81.28" size="1.778" layer="97" font="vector">(When using other qwiic 
+ecosystem boards, only use 3.3V)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

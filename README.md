@@ -1,9 +1,9 @@
 SparkFun High Precision Temperature Sensor TMP117 (Qwiic)
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+[![SparkFun High Precision Temperature Sensor TMP117 (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/4/4/3/0/15805-SparkFun_High_Precision_Temperature_Sensor_-_TMP117__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15805)
 
-[*SparkFun High Precision Temperature Sensor TMP117 (Qwiic) (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun High Precision Temperature Sensor TMP117 (Qwiic) (SEN-15805)*](https://www.sparkfun.com/products/15805)
 
 The TMP117 is a high precision temperature Sensor with accuracy of up to +/-0.1 degrees celsius and an operating temperature range of -55°C to +150°C. It is NIST traceable and verified with equipment that is calibrated to ISO/IEC 17025 accredited standards. It has a very low power consumption with a supply range of 1.8V to 5.5V.
 
